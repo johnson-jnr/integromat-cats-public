@@ -1,0 +1,7 @@
+[
+    {
+        "name": "limit",
+        "type": "number",
+        "label": "Maximum Limit of Breeds"
+    }
+]

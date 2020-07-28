@@ -1,0 +1,8 @@
+{
+    "name": "ListCategories",
+    "label": "List Categories",
+    "description": "List cat categories",
+    "connection": "cats-public-516594",
+    "webhook": null,
+    "type": "search"
+}

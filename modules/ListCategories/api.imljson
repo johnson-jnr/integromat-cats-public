@@ -1,0 +1,15 @@
+{
+    "url": "/categories",
+    "headers": {
+        "x-api-key": "{{connection.apiKey}}"
+    },
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    },
+    "log": {
+        "sanitize": [
+            "request.headers.API-TOKEN"
+        ]
+    }
+}

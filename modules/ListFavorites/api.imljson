@@ -1,0 +1,14 @@
+{
+    "url": "/favourites",
+    "method": "GET",
+    "qs": {
+        "limit": "{{parameters.limit}}"
+    },
+    "headers": {
+        "x-api-key": "{{connection.apiKey}}"
+    },
+    "response": {
+        "iterate": "{{body}}",
+        "output": "{{item}}"
+    }
+}

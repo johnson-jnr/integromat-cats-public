@@ -1,0 +1,8 @@
+{
+    "name": "GetFavorite",
+    "label": "Get Favorite",
+    "description": "Get a specific favorite cat by id",
+    "connection": "cats-public-516594",
+    "webhook": null,
+    "type": "action"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "ListFavorites",
+    "label": "List Favorites",
+    "description": "List favorite cats",
+    "connection": "cats-public-516594",
+    "webhook": null,
+    "type": "search"
+}

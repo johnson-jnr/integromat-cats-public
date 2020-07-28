@@ -1,0 +1,8 @@
+{
+    "baseUrl": "api.thecatapi.com/v1",
+    "log": {
+        "sanitize": [
+            "request.headers.authorization"
+        ]
+    }
+}

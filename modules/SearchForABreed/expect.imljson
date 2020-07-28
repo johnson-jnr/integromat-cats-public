@@ -1,0 +1,8 @@
+[
+    {
+        "name": "search",
+        "type": "text",
+        "label": "Search by a breed name",
+        "required": true
+    }
+]

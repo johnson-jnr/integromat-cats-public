@@ -1,0 +1,8 @@
+{
+    "name": "GetBreed",
+    "label": "Get Breed",
+    "description": "Get a breed by breed id",
+    "connection": "cats-public-516594",
+    "webhook": null,
+    "type": "search"
+}

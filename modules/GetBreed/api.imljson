@@ -1,0 +1,15 @@
+{
+    "url": "/images/search",
+    "headers": {
+        "x-api-key": "{{connection.apiKey}}"
+    },
+    "method": "GET",
+    "qs": {
+        "breed_ids": "{{parameters.breed_id}}"
+    },
+    "body": {},
+    "response": {
+        "output": "{{item}}",
+        "iterate": "{{body}}"
+    }
+}

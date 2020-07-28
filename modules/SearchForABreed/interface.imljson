@@ -1,0 +1,99 @@
+[
+    {
+        "name": "id",
+        "type": "number",
+        "label": "ID"
+    },
+    {
+        "name": "name",
+        "type": "text",
+        "label": "Name"
+    },
+    {
+        "name": "description",
+        "type": "text",
+        "label": "Description"
+    },
+    {
+        "name": "weight",
+        "label": "Weight",
+        "spec": [
+            {
+                "name": "imperial",
+                "type": "text",
+                "label": "Imperial"
+            },
+            {
+                "name": "metric",
+                "type": "text",
+                "label": "Metric"
+            }
+        ],
+        "type": "collection"
+    },
+    {
+        "name": "origin",
+        "type": "text",
+        "label": "Origin"
+    },
+    {
+        "name": "hairless",
+        "type": "number",
+        "label": "Hairless"
+    },
+    {
+        "name": "temperament",
+        "type": "text",
+        "label": "Temperament"
+    },
+    {
+        "name": "life_span",
+        "type": "text",
+        "label": "Life span"
+    },
+    {
+        "name": "affection_level",
+        "type": "number",
+        "label": "Affection Level"
+    },
+    {
+        "name": "child_friendly",
+        "type": "number",
+        "label": "Child Friendly"
+    },
+    {
+        "name": "dog_friendly",
+        "type": "number",
+        "label": "Dog Friendly"
+    },
+    {
+        "name": "energy_level",
+        "type": "number",
+        "label": "Energy Level"
+    },
+    {
+        "name": "grooming",
+        "type": "number",
+        "label": "Grooming"
+    },
+    {
+        "name": "intelligence",
+        "type": "number",
+        "label": "Intelligence"
+    },
+    {
+        "name": "stranger_friendly",
+        "type": "number",
+        "label": "Stranger Friendly"
+    },
+    {
+        "name": "health_issues",
+        "type": "number",
+        "label": "Health Issues"
+    },
+    {
+        "name": "vocalisation",
+        "type": "number",
+        "label": "Vocalisation"
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "url": "/favourites/{{parameters.id}}",
+    "method": "GET",
+    "qs": {},
+    "headers": {
+        "x-api-key": "{{connection.apiKey}}"
+    },
+    "response": {
+        "output": "{{body}}"
+    }
+}

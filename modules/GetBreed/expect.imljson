@@ -1,0 +1,12 @@
+[
+    {
+        "name": "breed_id",
+        "type": "text",
+        "label": "Breed ID",
+        "rpc": {
+            "label": "Find a Breed",
+            "url": "rpc://GetBreeds"
+        },
+        "required": true
+    }
+]

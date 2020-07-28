@@ -1,0 +1,16 @@
+{
+    "url": "https://api.thecatapi.com/v1/breeds",
+    "method": "GET",
+    "qs": {},
+    "body": {},
+    "headers": {
+        "API-TOKEN": "{{connection.apiKey}}"
+    },
+    "response": {
+        "iterate": "{{body}}",
+        "output": {
+            "label": "{{item.name}}",
+            "value": "{{item.id}}"
+        }
+    }
+}

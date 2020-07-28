@@ -1,0 +1,31 @@
+{
+    "url": "/breeds/search",
+    "method": "GET",
+    "qs": {
+        "q": "{{parameters.search}}"
+    },
+    "body": {},
+    "headers": {},
+    "response": {
+        "output": {
+            "id": "{{item.id}}",
+            "name": "{{item.name}}",
+            "description": "{{item.description}}",
+            "weight": "{{item.weight}}",
+            "origin": "{{item.origin}}",
+            "hairless": "{{item.hairless}}",
+            "temperament": "{{item.temperament}}",
+            "life_span": "{{item.life_span}}",
+            "affection_level": "{{item.affection_level}}",
+            "child_friendly": "{{item.child_friendly}}",
+            "dog_friendly": "{{item.dog_friendly}}",
+            "energy_level": "{{item.energy_level}}",
+            "grooming": "{{item.grooming}}",
+            "intelligence": "{{item.intelligence}}",
+            "stranger_friendly": "{{item.stranger_friendly}}",
+            "health_issues": "{{item.health_issues}}",
+            "vocalisation": "{{item.vocalisation}}"
+        },
+        "iterate": "{{body}}"
+    }
+}

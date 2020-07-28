@@ -1,0 +1,8 @@
+{
+    "name": "ListBreeds",
+    "label": "List Breeds",
+    "description": "List all cat breeds",
+    "connection": "cats-public-516594",
+    "webhook": null,
+    "type": "search"
+}

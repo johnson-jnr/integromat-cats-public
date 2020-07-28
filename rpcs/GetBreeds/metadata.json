@@ -1,0 +1,5 @@
+{
+    "name": "GetBreeds",
+    "label": "Get Breeds",
+    "connection": "cats-public-516594"
+}
